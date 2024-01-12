@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .odd_o{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            height: 700px;
+            border: solid 3px burlywood;
+            border-radius: 50%;
+            background-color: darksalmon;
+            color: white;
+            margin: 40px;
+        }
+        .mur_o{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            height: 700px;
+            border: solid 3px burlywood;
+            border-radius: 50%;
+            background-color: goldenrod;
+            color: black;
+            margin: 40px;
+        }
+        .mur_o:hover{
+            box-shadow: 40px 40px 15px aqua;
+            font-size: 55px;
+            transition: 1s;
+            color: blue;
+        }
+        .odd_o:hover{
+            box-shadow: 40px 40px 15px gold;
+            font-size: 55px;
+            transition: 1s;
+            color: black;
+        }
+        .cl{
+            text-decoration: none;
+            font-size: 50px;
+        }
+        .ciziq{
+            height: 10px;
+            color: black;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .imae{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -100;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <img src="image/image_for_back.jpg" class="imae">
+    <h1>Salom! Saytimizga xush kelibsiz!</h1>
+    <h2>Bizning saytimiz orqali siz Kimyo fanidan bo`lgan o`yinlarni o`ynab bilimingizni mustahkamlashingiz mumkun!</h2>
+    <a href="htm.html" class="cl"><div align="center" class="odd_o"><p>Yengilroq kimyoviy o`yin!</p></div></a>
+    <hr class="ciziq">
+    <a href="htm_2.html" class="cl"><div align="center" class="mur_o"><p>Murakkabroq kimyoviy o`yin!</p></div></a>
+</body>
+</html>
